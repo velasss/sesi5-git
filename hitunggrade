@@ -1,0 +1,16 @@
+2. Menghitung Grade
+
+
+INPUT "number" with any value 0-100
+
+IF "number" equals > 80
+    PRINT "Grade A"
+IF "number" equals > or = 73
+    PRINT "Grade B"
+IF "number" equals > or = 60
+    PRINT "Grade C"
+IF "number" equals < 60
+    PRINT "Failed"
+
+
+
