@@ -1,15 +1,13 @@
-1. Algoritma Luas_Keliling_Lingkaran
+1. Algoritma Luas Keliling Lingkaran
 
 
-import java.util.Scanner;
+STORE "const phi" with 3.14
+STORE "R" with any value
+STORE "Luas" without any value
+STORE "Keliling" without any value
 
-public class KelilingLingkaran {
-  public static void main(String[] args) {
-    double k, r, phi = 3.14;
-    Scanner scan = new Scanner(System.in);
-    System.out.print("Masukkan panjang jari-jari lingkaran: ");
-    r = scan.nextDouble();
-    k = 2 * phi * r;
-    System.out.println("Keliling Lingkaran adalah " + String.format("%.2f", k));
-  }
-}
+INPUT "Luas" with "const phi" * "R" * "R"
+INPUT "Keliling" with 2 * "const phi" * "R"
+
+PRINT "Luas"
+PRINT "Keliling"
